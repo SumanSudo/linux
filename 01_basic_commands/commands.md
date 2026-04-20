@@ -147,6 +147,35 @@ nano file.txt
 
 ---
 
+## 🔹 11. cp (Copy Files / Directories)
+
+**Description:**
+Copies files or directories from one location to another.
+
+**Syntax:**
+cp source destination
+
+**Examples:**
+cp file.txt copy.txt # copy file
+cp -r folder1 folder2 # copy folder
+
+---
+
+## 🔹 12. mv (Move / Rename Files)
+
+**Description:**
+Moves or renames files and directories.
+
+**Syntax:**
+mv source destination
+
+**Examples:**
+mv file.txt newfile.txt # rename file
+mv file.txt /home/user/ # move file
+mv folder1 folder2 # rename folder
+
+---
+
 # 📌 Notes
 
 - Linux is case-sensitive
