@@ -105,6 +105,48 @@ clear
 
 ---
 
+## 🔹 8. cat (View File Content)
+
+**Description:**
+Displays the content of a file.
+
+**Syntax:**
+cat file_name
+
+**Examples:**
+cat file.txt
+
+---
+
+## 🔹 9. echo (Print / Write Text)
+
+**Description:**
+Prints text to terminal or writes into a file.
+
+**Syntax:**
+echo "text"
+
+**Examples:**
+echo "Hello World"
+
+echo "Hello World" > file.txt # overwrite file
+echo "New Line" >> file.txt # append to file
+
+---
+
+## 🔹 10. nano (Edit File)
+
+**Description:**
+Opens a file in a simple text editor.
+
+**Syntax:**
+nano file_name
+
+**Examples:**
+nano file.txt
+
+---
+
 # 📌 Notes
 
 - Linux is case-sensitive
