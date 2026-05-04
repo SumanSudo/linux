@@ -176,6 +176,51 @@ mv folder1 folder2 # rename folder
 
 ---
 
+## 🔹 13. ls -l (View File Permissions)
+
+**Description:**
+Shows detailed file information including permissions.
+
+Example:
+ls -l
+
+---
+
+##🔹 14. File Permissons
+Types of permissions:
+r -> read
+w -> write
+x -> execute
+
+Permission Groups:
+Owner
+Group
+Others
+
+---
+
+## 🔹 15. chmod (Chnage Permissions)
+
+**Description**
+
+Syntax:
+chmod permissions file_name---
+
+Examples (symbolic):
+chmod +x file.sh # add execute permission
+chmod -w file.txt # remove write permission
+
+Examples (numeric):
+chmod 755 file.sh
+
+Meaning of 755:
+
+7 → rwx (owner)
+5 → r-x (group)
+5 → r-x (others)
+
+---
+
 # 📌 Notes
 
 - Linux is case-sensitive
